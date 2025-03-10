@@ -43,3 +43,27 @@ A computer vision-based football match analysis tool that detects and tracks pla
 ```bash
 git clone https://github.com/mahmoudelwaleed/Football_Analysis.git
 cd Football_Analysis
+```
+
+2️⃣ ** Add the YOLO model to the models/ folder** 
+
+Place your trained YOLO model (best.pt, last.pt) inside the models/ directory.
+
+3️⃣  ** Install dependencies** 
+
+```bash
+pip install -r requirements.txt
+```
+4️⃣ ** Run the analysis on a video** 
+```bash
+python main.py
+```
+📜**  License** 
+This project is for educational purposes. **Inspired by**: [AI Sports Analytics - Football Player & Ball Tracking](https://www.youtube.com/watch?v=neBZ6huolkg&list=WL&index=52)  
+
+
+
+
+
+
+
